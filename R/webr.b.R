@@ -10,8 +10,6 @@ webrClass <- if (requireNamespace('jmvcore', quietly = TRUE)) R6::R6Class(
         "?launch=snowsoft-web-r-65"
       )
       
-      webRWebsiteUrl <- "https://snowsoft.kr/65"
-      
       html <- paste0(
         '<div style="',
         'padding:24px;',
@@ -49,25 +47,6 @@ webrClass <- if (requireNamespace('jmvcore', quietly = TRUE)) R6::R6Class(
         '">',
         'Open Web R&nbsp;&nbsp;&#8599;',
         '</a>',
-        
-        '<div style="',
-        'margin-top:16px;',
-        'font-size:12px;',
-        'line-height:1.5;',
-        '">',
-        
-        '<a href="', webRWebsiteUrl, '" ',
-        'target="_blank" ',
-        'rel="noopener noreferrer" ',
-        'style="',
-        'color:#2563eb;',
-        'font-weight:600;',
-        'text-decoration:none;',
-        '">',
-        'Learn more about Web R&nbsp;&#8599;',
-        '</a>',
-        
-        '</div>',
         
         '</div>'
       )
