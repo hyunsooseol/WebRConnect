@@ -1,0 +1,27 @@
+---
+title: Web R
+name: webr
+jus: '3.0'
+stage: 0
+compilerMode: tame
+
+children:
+  - type: Label
+    label: Extend your jamovi analysis with browser-based R.
+
+  - type: Label
+    label: What you can do
+    children:
+      - type: Label
+        label: • Run R code and create plots
+      - type: Label
+        label: • Upload CSV data and R scripts
+      - type: Label
+        label: • Explore workspace objects and save results
+
+  - type: Label
+    label: Using your jamovi data
+    children:
+      - type: Label
+        label: Export your data as CSV, then upload it to Web R.
+...

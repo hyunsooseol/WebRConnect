@@ -1,0 +1,11 @@
+---
+name: webr
+title: Web R
+menuGroup: WebRConnect
+version: '1.0.0'
+jas: '1.2'
+
+options:
+    - name: data
+      type: Data
+...

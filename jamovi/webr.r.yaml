@@ -1,0 +1,11 @@
+---
+name: webr
+title: Web R
+jrs: '1.1'
+
+items:
+    - name: instructions
+      title: Web R
+      type: Html
+      visible: true
+...
