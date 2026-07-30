@@ -30,7 +30,7 @@ webrResults <- if (requireNamespace("jmvcore", quietly=TRUE)) R6::R6Class(
             super$initialize(
                 options=options,
                 name="",
-                title="Web R")
+                title="")
             self$add(jmvcore::Html$new(
                 options=options,
                 name="instructions",

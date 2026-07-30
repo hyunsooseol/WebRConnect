@@ -32,7 +32,7 @@ webrClass <- if (requireNamespace('jmvcore', quietly = TRUE)) R6::R6Class(
         '</style>',
         
         '<div style="',
-        'padding:40px 24px;',
+        'padding:12px 24px 46px;',
         'text-align:center;',
         '">',
         
@@ -57,8 +57,8 @@ webrClass <- if (requireNamespace('jmvcore', quietly = TRUE)) R6::R6Class(
         'display:flex;',
         'justify-content:center;',
         'flex-wrap:wrap;',
-        'gap:7px;',
-        'margin-top:20px;',
+        'gap:8px;',
+        'margin-top:22px;',
         '">',
         
         '<span style="',

@@ -1,6 +1,6 @@
 
 ---
-title: Web R
+title: Instructions
 name: webr
 jus: '3.0'
 stage: 0
@@ -18,7 +18,7 @@ children:
         label: • Explore workspace objects and save results
 
   - type: Label
-    label: Using your jamovi data
+    label: What is preserved
     children:
       - type: Label
         label: Measurement levels and variable labels are preserved.
