@@ -5,7 +5,7 @@ jrs: '1.1'
 
 items:
     - name: instructions
-      title: Web R
+      title: ''
       type: Html
       visible: true
 ...
