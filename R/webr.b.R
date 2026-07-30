@@ -11,6 +11,26 @@ webrClass <- if (requireNamespace('jmvcore', quietly = TRUE)) R6::R6Class(
       )
       
       html <- paste0(
+        
+        '<style>',
+        '.webr-open-button {',
+        'transition:transform 0.18s ease, ',
+        'box-shadow 0.18s ease, ',
+        'background-color 0.18s ease;',
+        '}',
+        
+        '.webr-open-button:hover {',
+        'transform:translateY(-2px) scale(1.02);',
+        'background:#145761 !important;',
+        'box-shadow:0 7px 16px rgba(21,104,113,0.24);',
+        '}',
+        
+        '.webr-open-button:focus-visible {',
+        'outline:3px solid rgba(23,98,108,0.28);',
+        'outline-offset:3px;',
+        '}',
+        '</style>',
+        
         '<div style="',
         'padding:40px 24px;',
         'text-align:center;',
@@ -19,6 +39,7 @@ webrClass <- if (requireNamespace('jmvcore', quietly = TRUE)) R6::R6Class(
         '<a href="', webRUrl, '" ',
         'target="_blank" ',
         'rel="noopener noreferrer" ',
+        'class="webr-open-button" ',
         'style="',
         'display:inline-block;',
         'padding:12px 22px;',
